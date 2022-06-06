@@ -1,5 +1,20 @@
-
-
+.fancy-button {
+  position: relative;
+}
+.count-items {
+  position: absolute;
+  right: -6px;
+  display: grid;
+  bottom: -6px;
+  height: 25px;
+  width: 25px;
+  place-content: center;
+  border-radius: 50%;
+  font-size: 12px;
+  line-height: 12px;
+  background-color: #fff;
+  border: 1px solid #1976d2;
+}
 /*
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
